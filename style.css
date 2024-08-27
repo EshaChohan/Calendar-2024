@@ -1,0 +1,99 @@
+@font-face {
+    font-family: roboto;
+    src: url(Assets/Roboto-Medium-font.ttf);
+}
+
+body {
+    background-image: url(Assets/background\ image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto !important; 
+}
+.calendar {
+    text-align: center;
+}
+h1{
+    font-size: 120px !important;
+    color: white;
+    font-weight: bold;
+    background-image: url(Assets/text\ image.jpg);
+    background-size: contain;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    font-size: 80px !important;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: url(Assets/text\ image.jpg);
+    background-size: contain;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.calendar-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.calendar-info p {
+    margin-top: 50px !important ;
+    font-size: 26px;
+}
+.dropdown-btn {
+ font-size: 17px !important;
+ height: 50px !important;
+ border: 2px solid black !important;
+ border-radius: 15px !important;
+ background-color: lavenderblush !important;
+ margin-top: 40px;
+ margin-left: 20px;
+}
+.dropdown-menu {
+    background-color: white;
+    font-size: 15px;
+    width: 90%;
+}
+.dropdown-item:hover {
+    background-color: lavenderblush !important;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.dropdown-item:active {
+    color: black !important;
+}
+.start-btn {
+   padding: 15px;
+   width: 200px;
+   border-radius: 30px;
+   font-size: 25px;
+   font-weight: 700 !important;
+   border: 2px solid black;
+   margin-top: 15px;
+   background-color: lavenderblush;
+  color: black;
+}
+.start-btn:hover {
+    background-image: url(Assets/text\ image.jpg);
+}
+.month-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.month-header a {
+    margin-top: 25px;
+}
+.calendar table {
+   margin: 80px auto !important;
+   empty-cells: hide;
+}
+.greeting {
+    font-size: 30px;
+    margin: 70px 300px;
+    line-height: 2;
+    font-style: italic;
+}
+.holiday {
+    border: 2px solid black;
+}
